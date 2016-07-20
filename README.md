@@ -1,5 +1,5 @@
 # prismjs-reprap-gcode
-Reprap G-Code language definition for Prism.js syntax highlighter
+Reprap G-Code language definition for [Prism.js](http://prismjs.com/) syntax highlighter
 
 ## Screenshot
 
@@ -10,10 +10,11 @@ Reprap G-Code language definition for Prism.js syntax highlighter
 Include prism.js to your web page
 
 ```html
+<link href="vendor/prism/prism.css" rel="stylesheet" />
 <script src="vendor/prism/prism.js" type="text/javascript"></script>
 ```
 
-And include the additional language file afterwards
+Include the additional language file after prism.js
 
 ```html
 <script src="js/prism.language.reprap_gcode.js" type="text/javascript"></script>
